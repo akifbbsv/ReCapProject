@@ -19,7 +19,7 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
-        public List<Car> GettAll()
+        public List<Car> GetAll()
         {
            return _carDal.GetAll();
         }
